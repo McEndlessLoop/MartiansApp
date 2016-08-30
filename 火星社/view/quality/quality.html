@@ -1,0 +1,20 @@
+<ion-view hide-nav-bar="true" class="quality">
+    <ion-header-bar class="header_color">
+        <a ui-sref="person"><i class="icon ion-chevron-left"></i> <span>职业素质分</span></a>
+    </ion-header-bar>
+    <ion-content>
+        <div class="quality_top">
+            <div class="quality_pic">
+                <img src="images/quality_top_03.png">
+            </div>
+        </div>
+        <div class="content">
+            <h2>时间</h2><h2>调整分数</h2><h2>说明</h2>
+            <ul ng-repeat="data1 in data">
+                <li>{{data1.time}}</li>
+                <li>{{data1.grade}}</li>
+                <li>{{data1.state}}</li>
+            </ul>
+        </div>
+    </ion-content>
+</ion-view>

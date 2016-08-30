@@ -1,0 +1,25 @@
+<ion-view class="home_set" hide-nav-bar="true">
+    <ion-header-bar class="header_color">
+        <a ui-sref="tabs.home"><i class="icon ion-chevron-left"></i> <span>设置</span></a>
+    </ion-header-bar>
+    <ion-content>
+        <ul class="list">
+            <li class="item item-avatar-right" ng-click="showAlertTx()">
+                头像
+                <img src="images/header_tx.png">
+            </li>
+            <li ui-sref="changePwd" class="item">修改密码</li>
+            <li class="item">
+                消息通知
+                <label class="toggle">
+                    <input type="checkbox">
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </li>
+            <li class="item" ng-click="showConfirm()">退出当前账号</li>
+            <li class="item" ng-click="showAlert()">升级<span class="item-note">v.1.0</span></li>
+        </ul>
+    </ion-content>
+</ion-view>

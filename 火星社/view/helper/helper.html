@@ -1,0 +1,34 @@
+<ion-view id="helper">
+    <ion-nav-bar class="nav">
+        <ion-nav-title class="nav-title">火星助手</ion-nav-title>
+    </ion-nav-bar>
+    <ion-content>
+        <div class="helper_input">
+            <form  name="registerForm" novalidata>
+                <textarea cols="3" rows="4" name="helpersub" ng-model="yu.helpersub" required></textarea>
+                <button ng-disabled="registerForm.$invalid" ng-class="changeColor(registerForm)" ng-click="submit()">快来帮帮我</button>
+            </form>
+        </div>
+        <div class="warm" ng-show="tishi" >已提交，请耐心等候..</div>
+        <div class="nullshow" ng-show="toggle">
+            还没有向火星发出任何求助信号哦~
+        </div>
+        <div class="list sublist " ng-hide="toggle">
+            <div class="item row item-borderless subtitle">
+                <div class="col-33">提交时间</div>
+                <div class="col-33">处理状态</div>
+                <div class="col-33">处理状态</div>
+            </div>
+            <div class="item row" ng-repeat="thing in datahelp.things">
+                <div class="col-33">
+                    {{thing.time}}
+                    <p>{{thing.date}}</p>
+                </div>
+                <div class="col-33">{{thing.state}}</div>
+                <div class="col-33"><i ng-click="openModal($index)" ng-class="thing.class" ng-disabled="thing.evaluate1">{{thing.evaluate}}</i></div>
+            </div>
+        </div>
+    </ion-content>
+
+
+</ion-view>

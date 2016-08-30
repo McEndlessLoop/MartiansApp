@@ -1,0 +1,42 @@
+<ion-view id="myWork" hide-nav-bar="true" hide-tabs="true">
+    <ion-content class="myWorks">
+        <div class="navBar">
+            <div class="arrow fl"><a ui-sref="tabs.home"><i class="icon ion-chevron-left"></i></a></div>
+            <div class="icons fr"><img class="sharePic fl" src="images/share-7.png" ng-click="openModalshare()"><img ng-click=addOne() class="goodPic fl" ng-src="{{pic}}"></div>
+        </div>
+        <div class="top">
+            <h2 class="fl">京剧故事主题</h2>
+            <div class="right fr">
+                <i class="eye"><img src="images/yanjing3.png"><span>100</span></i>
+                <i class="dianzan"><img src="images/dianzan-4.png"><span>{{number}}</span></i>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="people">
+            <img src="images/juguojia_03.png">
+            <p>京剧国家</p>
+            <div class="clear"></div>
+        </div>
+        <div class="content"><img src="images/trueblood.png"></div>
+        <div class="shareCover">
+            <div class="discover">
+                <p>分享到</p>
+                <ul>
+                    <li>
+                        <img src="images/weixin.png"><br/>微信好友
+                    </li>
+                    <li>
+                        <img src="images/sine.png"><br/>新浪微博
+                    </li>
+                    <li>
+                        <img src="images/pengyouquan.png"><br/>朋友圈
+                    </li>
+                    <li>
+                        <img src="images/lianjie.png"><br/>获取链接
+                    </li>
+                </ul>
+                <div class="cancel">取 消</div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

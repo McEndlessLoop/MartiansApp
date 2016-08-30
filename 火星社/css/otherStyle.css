@@ -1,0 +1,141 @@
+
+/************------home页面-----------***********/
+.mainbg{background-color: #f7f7f7;}
+.homeHeader{background:url("../images/upbanner.png") no-repeat center;background-size: cover;width:100%;height:12.7rem;color:#fff;margin-bottom:2.1rem;}
+.homeHeader .left{padding:2.5rem 1.7rem 0 2rem;border-radius: 50%;}
+.homeHeader .left img{width:5.7rem;height:5.65rem;}
+.homeHeader .center{padding-top:2.5rem;color:#fff;}
+.homeHeader .center h2{font-size:1.3rem;line-height:1.7rem;color:#fff;}
+.homeHeader .center h2 span{font-size:2rem;font-weight:bold;margin-right:0.5rem;}
+.homeHeader .center p{font-size:1.3rem;line-height:1.7rem;}
+.homeHeader .right{margin:4rem 2.3rem 0 0;}
+.homeHeader .right img{width:2.55rem;height:2.65rem;}
+.homeMain{padding:0 0.6rem;height:13.7rem;}
+.homeMain img{width:100%;height:13.7rem;}
+.homePage{padding:0 0.6rem;height:26.9rem;}
+.homePage .top{height:4.5rem;}
+.homePage .top .topPic img{margin:1.6rem 0 0 0.9rem;width:1.8rem;height:1.8rem;}
+.homePage .top h4{font-size:2rem;line-height:4rem;margin:0.5rem 0 0 0.5rem;}
+.homePage .top p{font-size:1.5rem;line-height:4rem;margin:0.5rem 0 0 0.5rem;}
+.homePage .top p a{color:#2ac598;}
+.homePage .content{}
+.homePage .content .left{width:48.7%;background:#fff;color:#000;border-radius: 0.5rem;}
+.homePage .content .left .leftPic{width:100%;height:16.9rem;}
+.homePage .content .left .leftPic img{width:100%;height:100%;}
+.homePage .content .left h4{font-size:1.4rem;margin-top:1.2rem;line-height:1.9rem;margin-left:0.5rem;}
+.homePage .content .left p{font-size:1.3rem;line-height:1.9rem;margin-left:0.5rem;margin-bottom:0.7rem;}
+
+.homePage2{padding:0 0.6rem;height:26.9rem;}
+.homePage2 .top{height:4.5rem;}
+.homePage2 .top .topPic img{margin:1.6rem 0 0 0.9rem;width:1.8rem;height:1.8rem;}
+.homePage2 .top h4{font-size:2rem;line-height:4rem;margin:0.5rem 0 0 0.5rem;}
+.homePage2 .top p{font-size:1.5rem;line-height:4rem;margin:0.5rem 0 0 0.5rem;}
+.homePage2 .top p a{color:#2ac598;}
+.homePage2 .content5 .left{width:48.7%;background:#fff;color:#000;border-radius: 0.5rem;}
+.homePage2 .content5 .left .leftPic{width:100%;height:16.9rem;}
+.homePage2 .content5 .left .leftPic img{width:100%;height:100%;}
+.homePage2 .content5 .left h4{font-size:1.4rem;margin-top:1.2rem;line-height:1.9rem;margin-left:0.5rem;}
+.homePage2 .content5 .left p{font-size:1.3rem;line-height:1.9rem;margin-left:0.5rem;margin-bottom:0.7rem;}
+
+/************------workBox--作品盒子页面-----------***********/
+.workBox .ionContent .title2{background:#19adb9;height:5.5rem;padding:0 1.5rem;line-height:5.5rem;}
+.workBox .ionContent .title2 .arrow i{color:#fff;font-size:2rem;margin-right:1rem;}
+.workBox .ionContent .title2 .arrow span{line-height:5.5rem;font-size:2rem;color:#fff;}
+.workBox .ionContent .title2 .icons img{width:1.6rem;height:1.6rem;display: inline-block;margin-top:2rem;}
+.workBox .ionContent .title2 h4{font-size:1.3rem;color:#fff;}
+.workBox .ionContent .ul1{width:100%;padding:0.6rem;background:#f7f7f7;}
+.workBox .ionContent .ul1 li{width:48.7%;background:#fff;margin-bottom:0.6rem;}
+.workBox .ionContent .ul1 li .top img{width:100%;height:14.4rem;}
+.workBox .ionContent .ul1 li .center{height:5.8rem;border-bottom:1px solid #efefef;}
+.workBox .ionContent .ul1 li .center img{width:3.8rem;height:3.8rem;float:left;/*margin-right:5.3%;margin-left:0.5rem;*/margin:0.7rem 5.3% 0 0.5rem;}
+.workBox .ionContent .ul1 li .center span{display: block;font-size:1.6rem;color:#303030;line-height:4.7rem;}
+.workBox .ionContent .ul1 li .bottom{font-size:1.3rem;color:#808080;line-height:5rem;margin-left:0.5rem;}
+.workBox .ionContent .ul1 li .top2 img{width:100%;height:24.8rem;}
+
+/************------workBoxDetail--作品盒子详情页面-----------***********/
+.workBoxDetail .title4 {height:5.5rem;background:#19adb9;line-height:5.5rem;padding:0 1.5rem;}
+.workBoxDetail .title4 .arrow{}
+.workBoxDetail .title4 .arrow i{color:#fff;font-size:2.5rem;}
+/*.workBoxDetail .title4 .icons{line-height:5.5rem;}*/
+.workBoxDetail .title4 .icons img{width:2.2rem;height:2.2rem;display: inline-block;margin-top:1.6rem;}
+.workBoxDetail .title4 .icons img:first-child{margin-right:1.5rem;}
+.workBoxDetail .top{padding-left:4%;}
+.workBoxDetail .top h2{font-size:1.7rem;line-height:4.9rem;}
+.workBoxDetail .top .right{margin:1.6rem 1.5rem 0 0;}
+.workBoxDetail .top .right .eye{margin-right:1.5rem;}
+.workBoxDetail .top .right .eye img{width:1.5rem;height:1rem;margin-right:0.4rem;}
+.workBoxDetail .top .right .dianzan img{width:1.1rem;height:1rem;margin-right:0.4rem;}
+.workBoxDetail .people{padding-left:4%;}
+.workBoxDetail .people img{width:3.7rem;height:3.7rem;float:left;margin-right:0.5rem;border-radius: 50%;}
+.workBoxDetail .people p{float:left;line-height:3.7rem;}
+.workBoxDetail .people p span{margin-right:0.4rem;}
+.workBoxDetail .content{margin:1.5rem 0.6rem 0.6rem 0.6rem;width:96.6%;height:270rem;position: relative;}
+.workBoxDetail .content img{width:100%;height:100%;}
+.workBoxDetail .content p{position: absolute;left:50%;transform: translate(-50%);top:11%;color:#fff;font-size:2rem;font-weight:100;}
+
+/************------activity--活动通知页面-----------***********/
+.activity .title3{height:5.5rem;background:#19adb9;line-height:5.5rem;padding:0 1.5rem;}
+.activity .title3 .arrow i{color:#fff;font-size:2.5rem;}
+.activity .title3 .icons img{width:2.2rem;height:2.2rem;display: inline-block;margin-top:1.6rem;}
+.activity .activitySlide{height:13.7rem;width:100%;}
+.activity .activitySlide img{width:100%;height:13.7rem;}
+.activity .main1{padding:1rem/* 1rem 0.5rem 1rem*/;}
+.activity .main1 h3{font-size:2.2rem;color:#333;line-height:4.5rem;font-weight:bold;}
+.activity .main1 h5{font-size:1.6rem;color:#808080;line-height:2rem;font-weight:400;}
+.activity .main1 .content{font-size:1.3rem;color:#808080;line-height:1.5rem;margin-top:0.5rem;font-weight:500;}
+.activity .main1 .content img{width:1rem;height:1rem;}
+.activity .main1 .content .left{margin-right:2rem;}
+
+/************------myWorks--京剧故事主题页面----以及分享、点赞页面-------***********/
+.navBar{height:5.5rem;background:#19adb9;line-height:5.5rem;}
+.navBar .arrow{padding-left:2rem;}
+.navBar .arrow i{color:#fff;font-size:2.5rem;}
+.navBar .icons{padding-right:1.5rem;line-height:5.5rem;}
+.navBar .icons img{width:2.2rem;height:2.2rem;display: inline-block;margin-top:1.6rem;}
+.navBar .icons img:first-child{margin-right:1.5rem;}
+.myWorks{position: relative;}
+.myWorks .top{padding-left:4%;}
+.myWorks .top h2{font-size:1.7rem;line-height:4.9rem;}
+.myWorks .top .right{margin:1.6rem 1.5rem 0 0;}
+.myWorks .top .right .eye{margin-right:1.5rem;}
+.myWorks .top .right .eye img{width:1.5rem;height:1rem;margin-right:0.4rem;}
+.myWorks .top .right .dianzan img{width:1.1rem;height:1rem;margin-right:0.4rem;}
+.myWorks .people{padding-left:4%;}
+.myWorks .people img{width:3.7rem;height:3.7rem;float:left;margin-right:0.5rem;border-radius: 50%;}
+.myWorks .people p{float:left;line-height:3.7rem;}
+.myWorks .content{margin:1.5rem 0.6rem 0.6rem 0.6rem;width:96.6%;height:40.15rem;position: relative;}
+.myWorks .content img{width:100%;height:100%;}
+.myWorks .content p{position: absolute;left:50%;transform: translate(-50%);bottom:33%;color:#fff;font-size:2rem;font-weight:100;}
+                      /****---------------分享页面---------------***/
+.myWorks .shareCover{position: absolute;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display: none;}
+.myWorks .shareCover .discover{position: absolute;left:50%;transform: translate(-50%);top:30%;width:20rem;height:20rem;background:#fff;border-radius: 1rem;}
+.myWorks .shareCover .discover p{line-height:8.8rem;font-size:1.8rem;text-align:center;}
+.myWorks .shareCover .discover ul{padding:0 0.3rem;}
+.myWorks .shareCover .discover ul li{float:left;width:25%;text-align:center;font-size:1rem;}
+.myWorks .shareCover .discover ul li img{width:3.25rem;height:3.25rem;}
+.myWorks .shareCover .discover .cancel{position: absolute;border-radius:0 0 1rem 1rem;bottom:0;left:0;background:#19adb9;color:#fff;font-size:1.8rem;text-align: center;width:100%;height:3rem;line-height:3rem;}
+
+/************------mainWork--我的作品页面---------***********/
+/*.mainWork{position: relative;}*/
+.mainWork .navBar2{position:fixed;top:0;left:0;width:100%;height:5.5rem;z-index:10;margin-bottom:2rem;background:#19adb9;padding:0 1.5rem 2rem 1.5rem;line-height:5.5rem;}
+.mainWork .navBar2 .arrow{color:#fff;}
+.mainWork .navBar2 .arrow span{line-height:5.5rem;font-size:2rem;}
+.mainWork .navBar2 .arrow i{color:#fff;font-size:2rem;margin-right:1rem;}
+.mainWork .navBar2 .icons img{width:1.8rem;height:1.8rem;display:inline-block;margin-top:2rem;}
+.mainWork .ul{width:100%;padding:2rem 0.3rem 0.3rem 0.3rem;}
+.mainWork .bgcolor{background:#f7f7f7;}
+.mainWork .ul .li{width:47.4%;background:#fff;padding:0 0.1rem;margin:0 0.4rem 0.6rem 0.4rem;border:none;border-radius:0.7rem;}
+.mainWork .ul .li .top{margin-top:4rem;background:#f7f7f7;}
+.mainWork .ul .li .top img{width:100%;height:14.4rem;}
+.mainWork .ul .li .center{height:5.8rem;border-bottom:1px solid #efefef;}
+.mainWork .ul .li .center img{width:3.8rem;height:3.8rem;float:left;/*margin-right:5.3%;margin-left:0.5rem;*/margin:0.9rem 5.3% 0 0.5rem;}
+.mainWork .ul .li .center span{display: block;font-size:1.6rem;color:#303030;line-height:4.7rem;}
+.mainWork .ul .li .bottom{font-size:1.3rem;color:#808080;line-height:5rem;padding-left:0.5rem;border-bottom:1px solid #efefef;}
+.mainWork .ul .li .top2 img{width:100%;height:24.8rem;}
+
+/************------search--页面---------***********/
+.search .title{height:5.5rem;background:#19adb9;}
+.search .title i{color:#c1c3cb;font-size:2rem;}
+.search .history{padding:0 2rem;}
+.search .history h4{line-height:5rem;color:#76777c;font-size:1.8rem;font-weight:600;font-family: "宋体"}
+.search .history .contents{line-height:2rem;font-size:1.6rem;font-weight:600;color:#cecece;font-family: "宋体"}

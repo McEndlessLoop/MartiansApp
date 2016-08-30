@@ -1,0 +1,33 @@
+<ion-view class="login2" hide-nav-bar="true">
+    <ion-content>
+        <div class="login2_bg"><img src="images/bg.jpg"><div class="shade">
+            <div class="login2_logo">
+                <img src="images/logo_03.png">
+            </div>
+            <form name="registerForm" novalidate>
+                <div class="form">
+                    <div class="user_box">
+                        <div class="user"><img src="images/user_03.png"></div>
+                        <div class="list list-inset login2_text">
+                            <div class="item-input item">
+                                <span class="input-label"></span>
+                                <input class="text" placeholder="用户名" type="text" name="text" ng-model="text" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="password_box">
+                        <div class="user password"><img src="images/password_03.png"></div>
+                        <div class="list list-inset login2_text">
+                            <div class="item-input item">
+                                <span class="input-label"></span>
+                                <input class="text" placeholder="密码" type="password" name="password" ng-model="password" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button button-full button-balanced login_btn" ng-click="link(registerForm)">登录</div>
+                <p class="forgetPwd" ui-sref="forgetPwd">忘记密码？</p>
+            </form>
+        </div></div>
+    </ion-content>
+</ion-view>

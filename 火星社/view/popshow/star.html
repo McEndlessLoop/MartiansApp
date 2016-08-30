@@ -1,0 +1,14 @@
+<!--星星弹窗-->
+<ion-modal-view id="star">
+    <ion-content class="popshow">
+        <ul>
+            <li ng-repeat="star in totalStar" ng-click="moveStar(star)">
+                <img ng-src="{{star.imgsrcoff}}"/>
+            </li>
+        </ul>
+        <div class="cont">
+            <p >{{pri}}</p>
+        </div>
+        <span ng-click="closeModal()">确定</span>
+    </ion-content>
+</ion-modal-view>

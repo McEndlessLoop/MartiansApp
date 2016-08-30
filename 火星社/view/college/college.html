@@ -1,0 +1,13 @@
+<ion-view ng-controller="communityCtrl" hide-nav-bar="true" id="radio">
+	<ion-content>
+		<ion-refresher pulling-text="下拉刷新" pulling-icon="icon ion-fork assertive" on-refresh="refresh()"></ion-refresher>
+		<ul>
+			<li class="page" ng-repeat=" radio in radios " ui-sref="tabs.community.collegeInfor">
+				<h1>{{radio.title}}<time>{{radio.time}}</time></h1>
+				<span>{{radio.category}}</span>
+				<a href="#tabs/details"   >{{radio.content}}</a>
+			</li>
+			<ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+		</ul>
+	</ion-content>
+</ion-view>

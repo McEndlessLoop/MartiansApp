@@ -1,0 +1,19 @@
+<ion-view class="mainWork" hide-nav-bar="true" hide-tabs="true">
+    <ion-content class="bgcolor">
+        <div class="navBar2">
+            <div class="arrow fl"><a ui-sref="tabs.home"><i class="icon ion-chevron-left"></i></a><span>我的作品</span></div>
+            <div class="icons fr"><a ui-sref="tabs.search"><img src="images/search.png"></a></div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <ion-refresher pulling-text="下拉刷新中……" pulling-icon="icon ion-ion-load-a energized" on-refresh="refresh()"<!-- class="energized"-->></ion-refresher>
+        <ion-list class="ul">
+            <ion-item class="fl li" ng-repeat="mainWork in mainWorks">
+                <div class="top"><a ui-sref="tabs.workBoxDetail"><img ng-src="{{mainWork.imgPic}}"></a></a></div>
+                <div class="center"><a href="javascript:;"><img ng-src="{{mainWork.pic}}"></a><span>{{mainWork.name}}</span></div>
+                <div class="bottom">1512期UI视觉设计师班2班</div>
+            </ion-item>
+            <ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll>
+        </ion-list>
+    </ion-content>
+</ion-view>

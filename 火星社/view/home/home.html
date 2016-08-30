@@ -1,0 +1,63 @@
+<ion-view hide-nav-bar="true">
+    <ion-content class="mainbg">
+        <div class="homeHeader">
+            <div class="left fl" ui-sref="set"><img src="images/indexbg.png"></div>
+            <div class="center fl" ui-sref="person">
+                <h2><span>李雷</span>总排名：11</h2>
+                <p>平均成绩：A-</p>
+                <p>职业素质：95</p>
+            </div>
+            <div class="right fr"><img src="images/qiandao.png"></div>
+        </div>
+        <div class="homeMain">
+            <ion-slide-box auto-play="true" slide-interval="1500" does-continue="true">
+                <ion-slide><img src="images/ship.png" ng-click="go()"></ion-slide>
+                <ion-slide><a ui-sref="tabs.activitits"><img src="images/ship.png"></a></ion-slide>
+                <ion-slide><a ui-sref="tabs.activitits"><img src="images/ship.png"></a></ion-slide>
+                <ion-slide><a ui-sref="tabs.activitits"><img src="images/ship.png"></a></ion-slide>
+            </ion-slide-box>
+        </div>
+        <div class="homePage">
+            <div class="top">
+                <div class="topPic fl"><!--<a href="javascript:;">--><img src="images/my-work.png"><!--</a>--></div>
+                <h4 class="fl">我的作品</h4>
+                <p class="fr"><a ui-sref="tabs.mainWork">开启</a></p>
+                <div class="clear"></div>
+            </div>
+            <div class="content">
+                <div class="left fl">
+                    <div class="leftPic"><a ui-sref="tabs.myWork"><img src="images/jingjuheizi.png"></a></div>
+                    <h4>冯素素</h4>
+                    <p>1512期UI视觉设计师班1班</p>
+                </div>
+                <div class="left fr">
+                    <div class="leftPic"><a ui-sref="tabs.myWork"><img src="images/jingjuheizi.png"></a></div>
+                    <h4>黄玉婷</h4>
+                    <p>1512期UI视觉设计师班1班</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="homePage">
+            <div class="top">
+                <div class="topPic fl"><!--<a href="javascript:;">--><img src="images/zuopinhezi.png"><!--</a>--></div>
+                <h4 class="fl">作品盒子</h4>
+                <p class="fr"><a ui-sref="tabs.workBox">开启</a></p>
+                <div class="clear"></div>
+            </div>
+            <div class="content">
+                <div class="left fl">
+                    <div class="leftPic"><a ui-sref="tabs.workBoxDetail"><img src="images/jingjuheizi.png"></a></div>
+                    <h4>冯素素</h4>
+                    <p>1512期UI视觉设计师班1班</p>
+                </div>
+                <div class="left fr">
+                    <div class="leftPic"><a ui-sref="tabs.workBoxDetail"><img src="images/halibote.png"></a></div>
+                    <h4>黄玉婷</h4>
+                    <p>1512期UI视觉设计师班1班</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
